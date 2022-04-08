@@ -1,0 +1,110 @@
+.container {
+  padding: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.left {
+  width: 50%;
+  overflow: hidden;
+}
+
+.left img {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .left {
+    width: 100%;
+    display: none;
+  }
+}
+
+.right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right .header h4 {
+  font-size: 1.3rem;
+}
+
+.right .header h2 {
+  font-size: 3rem;
+  font-family: 'Gideon Roman', cursive;
+  font-weight: normal;
+  color: #A4720D;
+}
+
+.right .img_sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.right .img_sec img {
+  width: 30%;
+}
+
+.right .img_sec img:nth-child(1) {
+  margin-right: 5rem;
+}
+
+@media (max-width: 768px) {
+  .right {
+    width: 100%;
+  }
+  .right .header h2 {
+    font-size: 2rem;
+  }
+  .right .img_sec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .right .img_sec img {
+    width: 50%;
+  }
+  .right .img_sec img:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=Gold.css.map */

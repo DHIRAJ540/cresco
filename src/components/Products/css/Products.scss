@@ -1,0 +1,151 @@
+.products_container{
+    width: 85%;
+    margin: auto;
+
+    .header{
+        font-size: 3rem;
+        font-family: 'Gideon Roman', cursive;
+        text-align: center;
+
+        span{
+            color: #A4720D;
+        }
+    }
+}
+
+.watch_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+    .watch_left{
+        
+        .left_header{
+            font-size: 3rem;
+            font-family: 'Gideon Roman', cursive;
+            margin-bottom: 2rem;
+        }
+
+        .img_row{
+            img{
+                margin: 1rem 1rem;
+            }
+        }
+
+
+    }
+
+    .watch_right{
+        display: flex;
+        align-items: center;
+        
+
+        img{
+            width: 75%;
+        }
+
+        .second{
+            display: flex;
+            flex-direction: column;
+
+            img{
+                margin: 2rem 0;
+            }
+        }
+    }
+
+    @media (max-width:768px) {
+        flex-direction: column;
+
+        .watch_left{
+        
+            
+    
+            .img_row{
+                img{
+                    
+                    width: 25%;
+                }
+            }
+    
+    
+        }
+
+        .watch_right{
+            .first{
+                display: none;
+            }
+            .second{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.perf_container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .perf_left{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
+        .first{
+            img{
+                width: 100%;
+            }
+        }
+
+        .second{
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            img{
+                width: 40%;
+            }
+
+            img:nth-child(1){
+                margin-right: 2rem;
+            }
+
+        }
+
+    }
+
+    .perf_right{
+        font-size: 3rem;
+        font-family: 'Gideon Roman', cursive;
+       
+    }
+
+    @media (max-width:768px) {
+        flex-direction: column-reverse;
+
+        .perf_left{
+            width: 100%;
+            .first{
+                display: none;
+            }
+            .second{
+                flex-direction: column;
+
+                img{
+                    width: 80%;
+                }
+    
+                img:nth-child(1){
+                    margin-right: 0rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+}

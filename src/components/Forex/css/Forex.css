@@ -1,0 +1,74 @@
+.forex_container {
+  width: 95%;
+  margin: auto;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.forex_container .header {
+  font-size: 3rem;
+  font-family: 'Gideon Roman', cursive;
+  text-align: center;
+}
+
+.forex_container .header span {
+  color: #A4720D;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cards .card_row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.cards .card_row .card {
+  text-align: center;
+}
+
+.cards .card_row .card p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.cards .card_row .card img {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .cards .card_row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .cards .card_row .card p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .cards .card_row .card img {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=Forex.css.map */

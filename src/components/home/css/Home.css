@@ -1,0 +1,98 @@
+.home {
+  background: #000;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  height: 100vh;
+}
+
+.mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 8rem;
+}
+
+@media (max-width: 768px) {
+  .mid {
+    margin-bottom: 2rem;
+  }
+  .mid img {
+    width: 50%;
+  }
+}
+
+.bottom {
+  width: 95%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .bottom {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.social img:nth-child(1) {
+  margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .social {
+    display: none;
+  }
+}
+
+.btn {
+  position: relative;
+  cursor: pointer;
+}
+
+.btn .btn_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  color: #fff;
+}
+
+.btn .btn_text h4 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.btn img {
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.btn:hover img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.btn:hover h4 {
+  color: #A4720D;
+}
+/*# sourceMappingURL=Home.css.map */
