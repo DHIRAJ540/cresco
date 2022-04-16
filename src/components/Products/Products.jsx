@@ -12,6 +12,11 @@ import watch3 from "../../assets/img/watch3.png"
 import perf1 from "../../assets/img/perfume1.png"
 import perf2 from "../../assets/img/perfume2.png"
 import perf3 from "../../assets/img/perfume3.png"
+import amazonLogo from "../../assets/img/amazon.svg"
+import brexLogo from "../../assets/img/brex.png"
+import mercurylogo from "../../assets/img/mercury.png"
+import iciciLogo from "../../assets/img/icici.png"
+import stripeLogo from "../../assets/img/stripe.png"
 
 
 
@@ -84,6 +89,29 @@ const Products = () => {
                 <div className="perf_right">
                     Perfumes
                 </div>
+            </div>
+            <div className="available_container">
+                <div className="header">
+                    We are <span>available</span> on
+                </div>
+                <img src={amazonLogo} alt="amazon" />
+                <h2>INDIA, USA and DUBAI</h2>
+            </div>
+            <div className="partner_container">
+                <div className="header">
+                    Our <span>banking</span> partners are
+                </div>
+                <div className="img_row">
+                    <img src={brexLogo} alt="brex" />
+                    <img src={stripeLogo} alt="stripe" />
+                    <img src={mercurylogo} alt="mercury" />
+                </div>
+                <h2>For USA and DUBAI</h2>
+
+                <div className="img_row">
+                    <img src={iciciLogo} alt="brex" />
+                </div>
+                <h2>For INDIA</h2>
             </div>
         </div>
     )

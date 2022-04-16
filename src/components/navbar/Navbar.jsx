@@ -13,7 +13,7 @@ const Navbar = () => {
                     <div className="nav-items">
                         <a href="#gold"><h3>GOLD</h3></a>
                         {/* <h3>SILVER</h3> */}
-                        <a href="#forex"><h3>FOREX</h3></a>
+                        {/* <a href="#forex"><h3>FOREX</h3></a> */}
                         <a href="#products">ECOMMERCE</a>
                     </div>
                     <a href="#footer">

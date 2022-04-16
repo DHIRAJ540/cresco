@@ -14,7 +14,7 @@ function App() {
       <Navbar/>
       <Home/>
       <Gold/>
-      <Forex/>
+      {/* <Forex/> */}
       <Products/>
       <Footer/>
     </div>
