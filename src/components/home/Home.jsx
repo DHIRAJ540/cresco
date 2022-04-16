@@ -1,7 +1,6 @@
 import React from "react";
 import './css/Home.css'
 import {motion, useAnimation} from "framer-motion"
-import {useInView} from "react-intersection-observer"
 import midLogo from "../../assets/img/home-mid.svg"
 import facebookIcon from "../../assets/img/facebook.svg"
 import instaIcon from "../../assets/img/insta.svg"

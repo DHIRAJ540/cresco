@@ -29,7 +29,7 @@ const Footer = () => {
                     <img src={facebookIcon} alt="facebook" />
                     <img src={instaIcon} alt="insta" />
                 </div>
-                <p>@Cpoyright. All rights reserved</p>
+                <p>@Copyright. All rights reserved</p>
             </div>
             
         </div>
